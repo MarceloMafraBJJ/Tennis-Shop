@@ -19,6 +19,7 @@ export default function Detail({ navigation }) {
         source={require('../../assets/detail.png')}
         style={styles}
         resizeMode="cover"
+        style={styles.image}
       />
 
       <View>
@@ -49,16 +50,16 @@ export default function Detail({ navigation }) {
         <View style={styles.textcontent}>
           <Text style={styles.textTitle}>
             Nike Premium
-         </Text>
+          </Text>
           <Text style={styles.textcontent}>
             O Nike Premium foi criado para auxiliar na redução de lesões e manter você na corrida. Mais espuma e melhorias nos detalhes da parte de cima oferecem uma sensação de segurança e amortecimento. Amarre os cadarços e sinta todo o potencial logo no começo da corrida.
-         </Text>
+          </Text>
           <Text style={styles.textList}>
             - categoria: Amortecimento
-         </Text>
+          </Text>
           <Text style={styles.textList}>
             -materal: Mesh
-         </Text>
+          </Text>
         </View>
 
         <Button />
